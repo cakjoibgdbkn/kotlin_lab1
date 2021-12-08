@@ -1,20 +1,20 @@
-fun convert2(ball: Int):Int{    //6
-    var result = 0;             //14
-    if(ball<60){                //15
-        result = 2              //13
-        return result           //1
+fun convert2(ball: Int):Int{    
+    var result = 0;             
+    if(ball<60){                
+        result = 2              
+        return result          
     }
-    if(ball>59 && ball<75){     //4
-        result = 3              //7
-        return result           //2
+    if(ball>59 && ball<75){     
+        result = 3              
+        return result           
     }
-    if(ball>74 && ball<90){     //12
-        result = 4              //8
-        return result           //5
+    if(ball>74 && ball<90){    
+        result = 4              
+        return result          
     }
-    if(ball>89){                //3
-        result = 5              //9
-        return result           //11
+    if(ball>89){               
+        result = 5              
+        return result           
     }
-    return result               //10
+    return result               
 }
